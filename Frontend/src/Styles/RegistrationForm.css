@@ -1,0 +1,96 @@
+/* src/RegistrationForm.css */
+
+/* General form styling */
+.registration-form {
+    max-width: 600px; /* Adjust max width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ccc; /* Light gray border around the form */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    overflow-y: auto; /* Scroll if content overflows */
+}
+
+/* Title styling */
+.form-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Make the title bold */
+}
+
+/* Label styling */
+label {
+    display: block; /* Make labels block elements */
+    margin: 10px 0; /* Margin around labels */
+    font-size: 16px; /* Font size for labels */
+}
+
+/* Input field styling */
+input {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside the input fields */
+    margin-top: 5px; /* Margin above the input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for input text */
+}
+
+/* Button styling */
+.submit-button {
+    display: block; /* Center the button */
+    width: 100%; /* Full width button */
+    max-width: 200px; /* Max width of the button */
+    margin: 20px auto; /* Center button with spacing */
+    padding: 20px; /* Padding inside the button */
+    height: 60px; /* Set a fixed height */
+    border: none; /* Remove default border */
+    background-color: black; /* Black background color */
+    color: white; /* White text color */
+    text-align: center; /* Center text inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 16px; /* Font size for the button text */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.submit-button:hover {
+    background-color: #333; /* Darker background on hover */
+}
+
+/* Cancel button styling */
+.cancel-button {
+    display: block; /* Center the button */
+    width: 100%; /* Full width button */
+    max-width: 200px; /* Max width of the button */
+    margin: 10px auto; /* Center button with spacing */
+    padding: 20px; /* Padding inside the button */
+    height: 60px; /* Set a fixed height */
+    border: 1px solid #dc3545; /* Red border */
+    background-color: transparent; /* Transparent background */
+    color: #dc3545; /* Red text color */
+    text-align: center; /* Center text inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for the button text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth background color and text color transition */
+}
+
+.cancel-button:hover {
+    background-color: #dc3545; /* Red background on hover */
+    color: white; /* White text color */
+}
+
+/* Fieldset and legend styling */
+fieldset {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 10px; /* Padding inside fieldset */
+    margin: 10px 0; /* Margin around fieldset */
+    border-radius: 4px; /* Rounded corners */
+}
+
+legend {
+    font-weight: bold; /* Make the legend text bold */
+    font-size: 18px; /* Font size for the legend text */
+}

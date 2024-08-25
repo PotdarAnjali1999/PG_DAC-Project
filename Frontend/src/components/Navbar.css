@@ -1,0 +1,44 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.weather-info-btn {
+    background-color: white;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,64 @@
+/* src/Footer.css
+.footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.btn-book-appointment {
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.register-text {
+    font-size: 1.2em;
+    margin: 10px 0;
+} */
+/* src/Footer.css */
+
+/* Ensure the HTML and body are set to full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+/* Styles for the button */
+.btn-book-appointment {
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+/* Styles for the text */
+.register-text {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+

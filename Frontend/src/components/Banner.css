@@ -1,0 +1,44 @@
+/* src/Banner.css */
+.back
+{
+    background-color: aliceblue;
+}
+.banner {
+    text-align: center;
+    color: white;
+    background-image: url('../assets/images/background.jpg'); 
+    background-size: cover;
+    height:  100vh;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.time-date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.time, .date {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.banner-content h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    
+}
+
+.btn-register, .btn-login {
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
